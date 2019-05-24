@@ -1,29 +1,61 @@
-ul {
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-   overflow: hidden;
-   background-color: ##9edeff
- }
+* {
+  margin: 7px;
+  padding: 6px;
+}
 
- li {
-    float: left;
+body{
+  background-image: url(marmer.jpg)
+}
+
+ul {
+  font-size: 20px;
+  list-style: none;
+  background-color: grey;
+}
+
+li {
+  display: inline-block;
+}
+
+a:hover {
+  color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1, p {
+  border: 4px solid gray;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text color: black;
 }
 
 li a {
-     display: block;
-     color: black;
-     text-align: center;
-     padding: 14px 16px;
-     text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 3px 3px;
+  text-decoration: none;
 }
 
-
-li a:hover {
-
+li a {
+  list-style: none;
+  background-color: grey;
 }
 
-body {
-      background-color: #b57c7c
+.antwoord {
+  background-color: black;
+}
+.antwoord:hover {
+  color: white;
+}
 
+p{
+  font-size: 25px;
 }
